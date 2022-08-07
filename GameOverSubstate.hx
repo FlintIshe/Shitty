@@ -73,7 +73,7 @@ class GameOverSubstate extends MusicBeatSubstate
 		Conductor.songPosition = 0;
 
 		background = new FlxSprite().loadGraphic(Paths.image(backgroundName));
-		add(background); //background needs to be added first lmao don't even fucking try to change this
+		add(background); //background needs to be added first lmao don't even fucking try to change dis
 
 		animatedObject = new FlxSprite();
 		animatedObject.frames = Paths.getSparrowAtlas(getAnimatedObjectFrame);
